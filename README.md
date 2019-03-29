@@ -28,5 +28,5 @@ adb push console-app-android /data/local/tmp
 adb shell "chmod +x /data/local/tmp; /data/local/tmp/console-app-android"
 ```
 
-
+P.S. If you ever need to load dynamic libraries, you need to set up the LD_LIBRARY_PATH envvar
 
